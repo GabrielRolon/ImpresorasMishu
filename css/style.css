@@ -7,14 +7,15 @@
 header{
     text-align: center;
     font: 85% Verdana, Arial;
+    max-width: ;
     line-height: 1.4em;
     color: #888888;
 
 }
 body {
-    text-align: center;
+    text-align: none;
     font: 85% Verdana, Arial, Helvetica;
-    line-height: 1.4em;
+    line-height: 2.4em;
     color: #a06161;
 }
 
@@ -22,20 +23,29 @@ body {
     list-style: none;
     padding: 0;
     background: #092327;
-    width: 90%;
-    max-width: 1000px;
+    width: 100%;
+    max-width: fill-available;
     margin: auto;
 }
 .menu li a {
     text-decoration: none;
     color: white;
-    padding: 20px;
+    padding: 10px;
     display: block;
 }
+.menu li{
+    display: inline-block;
+    text-align: center;
+}
+.menu li a:hover{
+background: #353534;
+}
 
-h1,h2,h3,h4,h5,h6{
+.direccion{
     padding: 10px;
 }
+
+
 .cuaIndice1{
     color:#FFFFFF;
     font-size: 13px;
@@ -62,7 +72,7 @@ p>strong{
 
 /* !important */
 
-p { color:red!important; }
+footer> p { color:rgb(65, 55, 55)!important; }
 
 /* inline styles */
 
