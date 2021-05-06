@@ -16,7 +16,13 @@ header{
 
 }
 
+table{    
+    text-align: center;
+    font: 100% Verdana, Arial, Helvetica;
+    line-height: 1.4em;
+    color: #000000;
 
+}
 footer {
     text-align: none;
     font: 85% Verdana, Arial, Helvetica;
