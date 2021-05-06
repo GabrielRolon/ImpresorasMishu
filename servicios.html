@@ -2,11 +2,13 @@
     <html lang= "es">
         <head>
             <meta charset="utf-8"/>
-
+            <meta name="viewport" content="width=device-width">
             <title>Impresoras Mishu</title>
             <script src="https://kit.fontawesome.com/187d72f88b.js" crossorigin="anonymous"></script>
+            <link rel="stylesheet" href=“css/styles.css“>
         </head>
-        <body background="https://gabrielrolon.github.io/ImpresorasMishu/Imagenes/gato-fondo.jpg" >
+        <body style="background-color: #f9fcd8;">
+        <!-- <body background="https://gabrielrolon.github.io/ImpresorasMishu/Imagenes/gato-fondo.jpg" > -->
             <!-- Acá va tu código -->
             <!-- <icon><i class="fas fa-cat"></i> </icon>  -->
             <header>
@@ -17,6 +19,7 @@
             <div>
                 <p>
                     <audio autoplay controls loop>
+                    <source src="horse.ogg" type="audio/ogg">
                     <source src="https://gabrielrolon.github.io/ImpresorasMishu/Audio/Snow-Tha-Product-BZRP-Music-Sessions-39.mp3" type="audio/mpeg">
                     </audio>
                 </p>
@@ -25,14 +28,14 @@
             <nav>
                 <!--aca va la barra de navegación-->
                 <ul>
-                    <li>Inicio</li>
-                    <li>Servicios</li>
-                    <li>Contacto</li>
+                    <a href="https://gabrielrolon.github.io/ImpresorasMishu/"><li><i class="fas fa-play"></i>Inicio</li> </a>
+                    <a href="https://gabrielrolon.github.io/ImpresorasMishu/"><li><i class="fas fa-tools"></i>Servicios</li></a>
+                    <a href="https://gabrielrolon.github.io/ImpresorasMishu/Contactame.html"> <li><i class="fas fa-cat"></i>Contactame</li></a>
                 </ul>
             </nav>
             <main>
                 <iframe src="https://www.google.com/maps/embed?pb=!4v1620306917244!6m8!1m7!1sPDsy_9ICGqFdWhhgmKqhmQ!2m2!1d-34.48446277385235!2d-58.66246125341197!3f59.515723918441665!4f-3.892060711975546!5f0.7820865974627469" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                <div>
+                <div class="body">
                     <strong>
                         564 Hernan Cortés <br>
                         El Talar, Provincia de Buenos Aires, CP1618
@@ -45,10 +48,10 @@
                     
                 </article>
             </main>
-            <aside>
-                <image src="https://gabrielrolon.github.io/ImpresorasMishu/Imagenes/gato-adf.png" alt="gato-adf"></image>
+            <aside >
+                <image width="280" height="157" src="https://gabrielrolon.github.io/ImpresorasMishu/Imagenes/gato-adf.png" alt="gato-adf"></image>
                 <br>
-                <image src="https://gabrielrolon.github.io/ImpresorasMishu/Imagenes/gato-escaner.jpg" alt="gato-escaner"></image>
+                <image width="280" height="157" src="https://gabrielrolon.github.io/ImpresorasMishu/Imagenes/gato-escaner.jpg" alt="gato-escaner"></image>
             </aside>
             <footer>
                 <div>
@@ -67,6 +70,11 @@
                         <a >
                             <i>(+54) 011-4057-5504</i> 
                         </a>
+                    </p>
+                    <p>
+                        Envíame un mail con la falla de tu equipo y modelo a mi correo:
+                        <a href="mailto:gabriel.h.rolon@outlook.com">gabriel.h.rolon@outlook.com</a>
+                        
                     </p>
                 </div>
             </footer>

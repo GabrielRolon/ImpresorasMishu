@@ -1,0 +1,66 @@
+/*hoja de estilos*/
+
+*{
+    margin: 0; padding: 0;
+}
+body {
+    text-align: center;
+    font: 85% Verdana, Arial;
+    line-height: 1.4em;
+    color: #888888;
+}
+
+h1,h2,h3,h4,h5,h6{
+    padding: 10px;
+}
+.cuaIndice1{
+    color:#FFFFFF;
+    font-size: 13px;
+    border: 1px solid #FFFFFF;
+    padding: 2px 2px 2px 2px;
+    background: #6495ed;
+}
+#contenedor{
+    width: 760px;
+    margin: 0 auto;
+    text-align: left;
+    border: 1px #FFFFFF dotted;
+}
+
+div p{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+p>strong{
+    color: mediumslateblue;
+}
+
+/* !important */
+
+p { color:red!important; }
+
+/* inline styles */
+
+#párrafo { color:blue; }
+
+.delimitador{
+    width:560px;    /* Ancho máximo */
+    margin:auto;    /* Centramos el vídeo */
+}
+/* El contenedor con el padding-top crea el tamaño del vídeo */
+.contenedor{
+    height:0px;
+    width:100%;
+    padding-top:56.25%; /* Relación: 16/9 = 56.25% */
+    position:relative;
+}
+/* El iframe se adapta al tamaño del contenedor */
+.contenedor iframe{
+    position:absolute;
+    height:100%;
+    width:100%;
+    top:0px;
+    left:0px;
+}

@@ -13,7 +13,7 @@
     </a>
   </header>
   <h2>Contame de tu impresora</h2>
-  <form action="show_data.html" target="_blank">
+  <form method="POST" action="show_data.html" target="prueba">
     <label for="firstname">Tu nombre: </label><input size="30" type="text" name="firstname" placeholder="Ingrese su nombre aqui..." >   <br><br>
     <label for="lastname">Tu apellido:</label><input size="30"  type="text" name="lastname" placeholder="Ingrese su apellido aqui...">  <br><br>
     <!-- <label for="street">Direccion:</label><input type="text" name="address" placeholder="Ingrese su dirección aqui..." >  <br><br>
@@ -52,11 +52,8 @@
       <option value="grupo">Grupo de facebook</option>
     </select>
     <br>
-
-    <label for="comentarios">Comentarios:<br> </label><textarea name="comentarios" rows="10" cols="30"></textarea>
-    <br>
     <input type="submit" value="Enviar">
-    <button type="reset">Reset</button>
+    <button type="reset">Borrar</button>
   </form> 
   <p>Si usted hace click en el boton "Enviar", la informacion sera enviada a la pagina "show_data.html".</p>
        
