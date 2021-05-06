@@ -6,23 +6,37 @@
 
 header{
     text-align: center;
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
     font: 85% Verdana, Arial;
     max-width: ;
     line-height: 1.4em;
     color: #888888;
 
 }
-body {
+
+
+footer {
     text-align: none;
     font: 85% Verdana, Arial, Helvetica;
-    line-height: 2.4em;
+    line-height: 1.4em;
     color: #a06161;
 }
+
+
+footer {
+    text-align: none;
+    font: 85% Verdana, Arial, Helvetica;
+    line-height: 1.4em;
+    color: #a06161;
+}
+
 
 .menu{
     list-style: none;
     padding: 0;
-    background: #092327;
+    background: #337ce9;
     width: 100%;
     max-width: fill-available;
     margin: auto;
@@ -46,13 +60,13 @@ background: #353534;
 }
 
 
-.cuaIndice1{
+/* .cuaIndice1{
     color:#FFFFFF;
     font-size: 13px;
     border: 1px solid #FFFFFF;
     padding: 2px 2px 2px 2px;
     background: #6495ed;
-}
+} */
 #contenedor{
     width: 760px;
     margin: 0 auto;
